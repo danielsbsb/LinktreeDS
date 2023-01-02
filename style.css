@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    
+
+}
+:root{
+    --bgcolor: #1c1c1c;
+    --accentcolor:#FFCC00;
+}
+body{
+background-color: var(--bgcolor);
+}
+.LinktreeDS{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        margin: 0 auto;
+        gap: 40px;
+}
+.LinktreeDS img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.LinktreeDS h1{
+    font-size: 2.5 rem;
+    }
+
+.LinktreeDS a{
+    background-color:var(--accentcolor);
+    color: var(--bgcolor);
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    font-weight: bold;
+    
+}
+.LinktreeDS a:hover{
+    background-color: var(--bgcolor);
+    color:var(--accentcolor);
+}
+    
+@media screen {min-width: 1024px;
+    
+}
